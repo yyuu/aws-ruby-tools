@@ -1,6 +1,6 @@
-# Aws::Ruby::Tools
+# aws-ruby-tools
 
-TODO: Write a gem description
+A re-implementation of Amazon Web Services' official tools with little improvement.
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You have to set you AWS credentials in your environment variables.
+
+    $ export AWS_ACCESS_KEY_ID=${YOUR_ACCESS_KEY_ID}
+    $ export AWS_SECRET_ACCESS_KEY=${YOUR_SECRET_ACCESS_KEY}
+
+And then now you are ready to call APIs!
+
 
 ## Contributing
 
